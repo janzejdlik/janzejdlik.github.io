@@ -138,14 +138,6 @@ const auth = new google.auth.GoogleAuth({
 });
 ```
 
-The contents of the .json file downloaded are the following:
-
-```js
-{"web":{"client_id":"653412893567-0ogqdrjrosfbbf1462dsceemfj43uaeu.apps.googleusercontent.com","project_id":"golden-totality-351907","auth_uri":"https://accounts.google.com/o/oauth2/auth","token_uri":"https://oauth2.googleapis.com/token","auth_provider_x509_cert_url":"https://www.googleapis.com/oauth2/v1/certs","client_secret":"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"}}
-```
-
-
-
 Furthermore, I have tried to check all of the three factors in order to check if they are correct. I have also made sure to download the following packages with npm:
 
 ```js
@@ -175,28 +167,6 @@ TypeError: key must be a string, a buffer or an object
 Node.js v18.13.0
 ```
 
+To this point I was not able to find a solution to this problem, any help form the outside would be highly appreciated.
 
-
-
-
-
-
-
-
-```js
-npm install screenshotmachine googleapis fs 
-```
-
-
-
-```js
-npm install screenshotmachine googleapis fs 
-```
-
-
-
-```js
-npm install screenshotmachine googleapis fs 
-```
-
-python3 -m http.se
+Thank you
